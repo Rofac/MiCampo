@@ -1,6 +1,6 @@
 /* Guarda la app en el celular para que abra sin internet.
    Al cambiar VERSION, el celular baja la versión nueva la próxima vez que abre la app con internet. */
-const VERSION = 'campo-1.1.0';
+const VERSION = 'campo-1.1.1';
 const OCR = 'ocrcampo-1';      // el lector de números (6 MB) se guarda aparte la primera vez que se usa y no se borra al actualizar
 const ARCHIVOS = ['./', 'index.html', 'manifest.webmanifest', 'css/app.css', 'js/datos.js', 'js/voz.js', 'js/caravana.js', 'js/ocr-worker.js', 'js/lic.js', 'js/app.js',
   'fonts/Poppins-Regular.woff', 'fonts/Poppins-Medium.woff', 'fonts/Poppins-Bold.woff',
