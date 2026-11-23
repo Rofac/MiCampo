@@ -1,0 +1,54 @@
+MI CAMPO (app de celular) — para Rodrigo · 23/11/2026
+=====================================================
+
+Para tu cuñado: gastos y ventas del campo, hacienda, vacunas, peones, lo que hay que pagar y cobrar,
+y cuánto le está dejando el campo en la campaña (julio a junio). Funciona sin internet, los datos
+quedan en el celular. Se activa por celular, igual que la app de los empleados de Roma.
+
+PUBLICARLA (como las otras apps)
+1. Creá un repositorio nuevo en GitHub (ej. Rofac/MiCampo) y subí TODO lo que hay en esta carpeta.
+2. Settings > Pages > Branch: main / (root) > Save. A los minutos queda la dirección
+   (ej. https://rofac.github.io/MiCampo/).
+3. Mandale esa dirección a tu cuñado.
+
+INSTALARLA EN EL CELULAR DE TU CUÑADO
+1. Abrir la dirección en Chrome (Android) o Safari (iPhone).
+2. Android: menú ⋮ > "Agregar a la pantalla principal" / "Instalar app".
+   iPhone: Compartir > "Agregar a inicio". En iPhone hay que activarla DESDE EL ÍCONO, no desde Safari.
+3. Al abrirla muestra el código del celular (ej. 7F3A-91C2-04BD) y un botón "Mandar por WhatsApp".
+
+ACTIVARLA
+1. Abrí generar_licencia_apps.py (doble clic) > opción 10 = Mi Campo.
+2. No pregunta el nombre: pegá el código del celular. Vence: Enter = un año (o PERM = sin vencimiento).
+3. Mandale la clave (CAM-…) y la pega en la app > Activar.
+   La clave sirve sólo para ese celular. Si cambia de celular, hay que hacer otra con el código nuevo
+   (los datos se pasan con Configuración > Copia de seguridad).
+
+QUÉ TIENE
+- Menú lateral (☰ arriba a la izquierda, o deslizando desde el borde izquierdo).
+- Inicio: ingresos, gastos y resultado de la campaña, gráfico mes a mes con el resultado acumulado,
+  en qué se va la plata, avisos (pagos vencidos, vacunas que tocan), hacienda y lo último cargado.
+- Cargar gasto o venta: rubros con dibujito (los 9 que pidió + los que se suelen olvidar), monto,
+  fecha, lote, cantidad (litros, bolsas, rollos, ha…) con el precio por unidad, proveedor, si se pagó
+  o queda "a pagar" (cheques), y cómo (efectivo, transferencia, cheque…).
+- "Decilo con la voz": tocás el micrófono y decís "pagué 300 mil de gasoil" o "vendí 20 terneros por
+  12 millones" y completa todo solo (después se revisa y se toca Guardar). Si el celular no deja dictar
+  en la app, se usa el micrófono del teclado. Para dictar hace falta internet (para cargar a mano, no).
+- Hacienda: contar lo que hay, nacimientos, cambio de categoría (destete), ventas, compras y muertes.
+  Las ventas y compras de animales se descuentan / suman solas al cargarlas como venta o gasto.
+- Animales (caravanas) — v1.1: ficha por animal con su número de caravana (categoría, sexo, nacimiento,
+  madre y crías, pesadas con aumento diario, vacunas, servicio/preñez, notas, vendido / murió).
+  Se busca escribiendo el número (alcanzan los últimos) o con 📷: se apunta al número impreso de la
+  caravana y la app lo lee. La primera vez que se usa la cámara necesita internet (baja el lector de
+  números, unos 6 MB); después anda sin internet. Si algún día compran un lector de chip con "modo
+  teclado", también sirve: se lee la oreja y el número entra solo.
+- Vacunas: aftosa, brucelosis, carbunclo… con la próxima dosis (avisa) y el costo (queda como gasto).
+- Peones: sueldo, pagos, adelantos, aguinaldo; cuánto se le pagó en el mes y en el año.
+- A pagar / a cobrar: lo pendiente con su vencimiento, "Pagado ✓".
+- Informes: gastos e ingresos por rubro, por hectárea, por lote, ventas de hacienda (precio promedio
+  del kilo, peso promedio), costo por cabeza, mes por mes. Mandar resumen por WhatsApp y Excel.
+- Configuración: nombre del campo, hectáreas, en qué mes empieza la campaña, lotes, rubros propios,
+  copia de seguridad (hacer / recuperar) y el código de activación.
+
+ACTUALIZAR: subí los archivos nuevos al mismo repositorio. El celular baja la versión nueva la próxima
+vez que abre la app con internet (el número de versión está en sw.js).
